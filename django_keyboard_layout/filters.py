@@ -8,7 +8,9 @@ from django.utils import six
 from rest_framework import filters
 from rest_framework.compat import distinct
 
-from .layout import DefaultLayout
+from .layouts import DefaultLayout
+
+__all__ = ('LayoutSearchFilter',)
 
 
 class LayoutSearchFilter(filters.SearchFilter):

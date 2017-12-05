@@ -2,6 +2,12 @@
 
 **Keyboard layout-insensitive search filter for Django Rest Framework.**
 
+## Installation
+
+```bash
+pip install -e git+https://github.com/deniskrumko/django-keyboard-layout@v0.0.2#egg=django-keyboard-layout
+```
+
 ## Example
 
 #### Define `filter_backends`, `search_fields` and `search_layouts` in `APIView`
