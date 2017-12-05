@@ -1,13 +1,10 @@
-from setuptools import setup, find_packages
-
-VERSION = (0, 0, 2)
-__version__ = '.'.join(map(str, VERSION))
+from setuptools import setup
 
 
 setup(
     name='django-keyboard-layout',
-    packages=find_packages(),
-    version=__version__,
+    packages=['django_keyboard_layout'],
+    version='0.0.3',
     description="Keyboard layout-insensitive search filter",
     long_description=(
         "Keyboard layout-insensitive search filter for Django Rest Framework"

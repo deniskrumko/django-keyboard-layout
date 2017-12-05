@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-pip install -e git+https://github.com/deniskrumko/django-keyboard-layout@v0.0.2#egg=django-keyboard-layout
+pip install -e git+https://github.com/deniskrumko/django-keyboard-layout@v0.0.3#egg=django-keyboard-layout
 ```
 
 ## Example
